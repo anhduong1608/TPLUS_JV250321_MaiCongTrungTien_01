@@ -196,11 +196,11 @@ public class ContactApplication {
                 count5++;
             }
         }
-        System.out.printf("Rating : khong quan trong co- %d ", count1);
-        System.out.printf("Rating : it tuong tac co- %d ", count2);
-        System.out.printf("Rating : binh thuong - %d ", count3);
-        System.out.printf("Rating : than thiet - %d ", count4);
-        System.out.printf("Rating : vip - %d ", count5);
+        System.out.printf("Rating : khong quan trong co- %d \n", count1);
+        System.out.printf("Rating : it tuong tac co- %d \n", count2);
+        System.out.printf("Rating : binh thuong - %d \n", count3);
+        System.out.printf("Rating : than thiet - %d \n", count4);
+        System.out.printf("Rating : vip - %d \n", count5);
     }
 
     public static void countBySex(Scanner sc) {
@@ -211,7 +211,7 @@ public class ContactApplication {
                 count1++;
             }else count2++;
         }
-        System.out.printf("so luong nam la : %d",count1);
+        System.out.printf("so luong nam la : %d\n",count1);
         System.out.printf("so luong nu la : %d",count2);
     }
     public static void softByNameASC(Scanner sc){
